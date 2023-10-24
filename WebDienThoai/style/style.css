@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.align-all {
+    width: 100%;
+    display: block;
+}
+
+.header {
+    position: relative;
+    background: url(/img/TrangChu/slide/background1.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header .Logo {
+    width: 100px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.header .menu {
+    width: 100%;
+    display: flex;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #FFBE0B;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li {
+    padding: 10px;
+    border: solid 1px white;
+    cursor: pointer;
+    
+}
+
+.menu ul li:hover {
+    background-color: #bc8d0e;
+}
+
+.menu ul li a:hover {
+    color: black;
+}
